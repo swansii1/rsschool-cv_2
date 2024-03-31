@@ -38,3 +38,12 @@ ___
 ```
 
 ---
+
+### Education
+* **College:** Tumanov College, specialty: information systems and programming.
+* **Course:** RS School Stage 0, RS School Stage 1(in progress)
+
+---
+
+### Language 
+* English: A2
