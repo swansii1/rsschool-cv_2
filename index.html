@@ -15,14 +15,93 @@
                         <img class="photo" src="wHaXS9ZqHZc.jpg" alt="photoLebedev">
                     </div>
                     <div class="bio_prof">
-                    <div class="name">Lebedev Matvey</div>
-                    <div class="prof">Junior Frontend Developer.</div>
+                    <div class="name"><h1 class="name">Lebedev Matvey</h1></div>
+                    <div class="prof">Junior Frontend Developer</div>
                     </div>
                 </div>
             </header>
             <hr>
             <hr>
+            <main>
+                <div class="main">
+                <div class="about_me">Hello everyone, my name is Matvey. I have been
+                    working for a long time where I don't like to work, namely in 
+                    the restaurant business. I also had modest attempts in business,
+                    I had my own team of handymen, and also, studying to be a programmer,
+                    I was engaged in the sale of nicotine. Yes, I studied in the direction 
+                    of "Information systems and programming", but this cannot be called a 
+                    study because it was not interesting to me and I came there to smoke 
+                    near the entrance. I've been studying development for only 1 month, I 
+                    like it, let's see what happens next...</div>
+                <div class="skills"> My skills:
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Git, GitHub</li>
+                        <li>VS Code</li>
+                    </ul>
+                </div>
+                </div>
+                <div class="code">
+                    <code>function isPangram(str) {
+                        str = str.toLowerCase()
+                        var alp = "zqxjkvbpygfwmucldrhsnioate";
+                        alp.split('')
+                        for (let i = 0; i < alp.length; i++){
+                          if (str.indexOf(alp[i]) < 0){
+                            return false;
+                          }
+                        }
+                        return true;
+                      }</code>
+                    <code>function arithmetic(a, b, op){
+                        if (op === 'add') op = '+'
+                        if (op === 'subtract') op = '-'
+                        if (op === 'divide') op = '/'
+                        if (op === 'multiply') op = '*'
+                        return eval(a + op + b)
+                      }</code>
+                    <code>var capitals = function (word) {
+                        let arr = [];
+                      for (let i = 0; i < word.length; i++){
+                        if (word[i].toUpperCase() == word[i]) arr.push(i);
+                      }
+                      return arr;
+                    };</code>
+                    <code>function past(h, m, s){
+                        h = h * 60 * 60 * 1000
+                        m = m * 60 * 1000
+                        s = s * 1000;
+                        let res = h + m + s
+                        return res;
+                      }</code>
+                </div>
+                <div class="education">
+                        <div>
+                        <h2>Education</h2>
+                        </div>
+                        <div>
+                        <ul>
+                            <li>Tumanov College, specialty: information systems and programming.</li>
+                            <li>RS School Stage 0(in progress)</li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="language">
+                        <p>Language: English (A2)</p>
+                    </div>
+            </main>
+            <footer>
+                <div>Contacts</div>
+                <ul>
+                    <li>Adress: Moscow</li>
+                    <li>Phone: 8 (999) 852-91-09</li>
+                    <li>Email: matvey.swansii@gmail.com</li>
+                    <li>GitHub: <a href="https://github.com/swansii1">Swansii1</a></li>
+                    <li>Telegram: <a href="https://t.me/swansii">@swansii</a></li>
+                </ul>
+            </footer>
+          </div>
         </div>
-    </div>
 </body>
 </html> 

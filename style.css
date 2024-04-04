@@ -1,16 +1,18 @@
 body {
-    background-color: rgb(26, 0, 96)
+    background-color: rgb(26, 0, 96);
+    color: antiquewhite;
 }
 
-.wrapper {
+ .wrapper {
 display: flex;
 justify-content: center;
-}
+} 
 
 .wrapper_1 {
     background-color: rgba(21, 165, 16, 0.32);
     width: 1100px;
-    height: 800px;
+    height: 1500px;
+    border: 2px solid wheat;
 }
 .photo {
     width: 200px;
@@ -34,4 +36,43 @@ justify-content: center;
     font-size: 20px;
     color: antiquewhite;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main {
+    display: flex;
+    font-weight: bold;
+    justify-content:space-around;
+}
+.about_me{
+    width: 500px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.skills {
+    margin-top: 30px;
+    font-size: 30px;
+}
+.code {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+code {
+    color: rgb(202, 161, 16);
+    border: 2px solid wheat;
+    margin:  5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+}
+.education {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.language{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 20px;
 }

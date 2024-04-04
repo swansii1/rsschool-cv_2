@@ -3,7 +3,7 @@
 
 ### Contacts
 * **Adress**:Moscow
-* **Phune**: 8-999-852-91-09
+* **Phone**: 8-999-852-91-09
 * **Email**: matvey.swansii@gmail.com
 * **GitHub**: [swansii1](https://github.com/swansii1)
 * **Telegram**: [swansii](https://t.me/swansii)
@@ -41,7 +41,7 @@ function isPangram(str) {
 
 ### Education
 * **College:** Tumanov College, specialty: information systems and programming.
-* **Course:** RS School Stage 0, RS School Stage 1(in progress)
+* **Course:** RS School Stage 0(in progress)
 
 ---
 
